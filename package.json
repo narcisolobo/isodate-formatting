@@ -1,0 +1,27 @@
+{
+  "name": "isodate-formatting",
+  "version": "1.0.0",
+  "description": "An introduction to formatting ISO dates in JavaScript with the dayjs npm package.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcisolobo/isodate-formatting.git"
+  },
+  "author": "Narciso Lobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narcisolobo/isodate-formatting/issues"
+  },
+  "homepage": "https://github.com/narcisolobo/isodate-formatting#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dayjs": "^1.11.7"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
