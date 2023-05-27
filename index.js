@@ -31,16 +31,16 @@ const isoDates = [isoNow, isoBirthday, isoDate1, isoDate2, isoDate3, isoDate4];
  * @param {formatCallback} cb The formatter callback function to apply.
  * @returns {string[]} An array of formatted strings.
  */
-function createDates(isoDates, cb) {
+function formatDates(isoDates, cb) {
   const formattedDates = isoDates.map((date) => {
     return cb(date);
   });
   return formattedDates;
 }
 
-const longDates = createDates(isoDates, formatLong);
-const shortDates = createDates(isoDates, formatShort);
-const relativeDates = createDates(isoDates, formatRelative);
+const longDates = formatDates(isoDates, formatLong);
+const shortDates = formatDates(isoDates, formatShort);
+const relativeDates = formatDates(isoDates, formatRelative);
 
 console.log(chalk.bgCyanBright('Long dates:'));
 longDates.forEach((isoDate) => console.log(isoDate));
