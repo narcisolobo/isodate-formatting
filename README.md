@@ -16,7 +16,7 @@ When students eventually add a MongoDB database to their full stack projects, th
 2. Create index.js: `touch index.js`
 3. Initialize npm project: `npm init` or `npm init -y`
 4. Install Day.js and Chalk (optional): `npm i dayjs chalk`
-5. Create new module file for formatter callback functions: `mkdir lib && touch lib/formatDate.js`
+5. Create new module file for formatter callback functions: `mkdir utils && touch utils/formatDate.js`
 6. In formatDate.js, import the dayjs module.
 7. In formatDate.js, create a `formatLong` function that takes in an ISO 8601 date string as input and returns a human-readable string as output. Example output: "Thursday, January 21, 2023". Export the function.
 8. Back in index.js project entry file, import the `formatLong` function.

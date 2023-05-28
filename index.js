@@ -2,10 +2,10 @@
 import chalk from 'chalk';
 
 // Named imports from custom module
-import { formatLong, formatShort, formatRelative } from './lib/formatDate.js';
+import { formatLong, formatShort, formatRelative } from './utils/formatDate.js';
 
 // Create ISO date strings using JS Date library,
-// https://timestampgenerator.com/,or just writing
+// https://timestampgenerator.com/,or just typing
 // it out manually
 const isoNow = new Date().toISOString();
 const isoBirthday = new Date('September 25, 1990');
