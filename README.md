@@ -5,7 +5,7 @@
 
 This example assignment introduces the student to installing and implementing third-party npm packages and using custom modules. It also allows the student to practice callback functions.
 
-When students add a MongoDB database to their full stack projects, the documents in their databases will have `createdAt` and `updatedAt` properties in ISO 8601 date format. In order to format these dates in a friendlier way, we can use Day.js.
+When students eventually add a MongoDB database to their full stack projects, the documents in their databases will have `createdAt` and `updatedAt` properties in ISO 8601 date format. In order to format these dates in a friendlier way, we can use Day.js.
 
 ## Third-Party Packages
 - [Day.js](https://day.js.org/) - Fast 2kB alternative to Moment.js with the same modern API. The creators of Moment [discourage it from being used in new projects going forward](https://momentjs.com/docs/#/-project-status/).
